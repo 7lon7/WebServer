@@ -60,7 +60,6 @@ void HeapTimer::add(int id, int timeout, const TimeoutCallBack& cb) {
     } 
     else
    	{
-        /* 已有结点：调整堆 */
         i = ref_[id];
         heap_[i].expires = Clock::now() + MS(timeout);
         heap_[i].cb = cb;
