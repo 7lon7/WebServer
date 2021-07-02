@@ -14,4 +14,7 @@
 🌟.c++14风格<br>
 <br>
 <br>
-效果
+
+云服务器(k8s 2核 1G)<br>
+webbench -c 300 -t 10 http://ip:port/<br>
+![Image text](https://github.com/7lon7/WebServer/blob/main/RM/xn.png)
