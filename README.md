@@ -27,3 +27,4 @@ webbench -c 300 -t 10 http://ip:port/<br>
 ## todo
   -注册登录功能<br>
   -连接数据库<br>
+  -异步日志<br>
